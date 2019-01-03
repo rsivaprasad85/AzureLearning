@@ -31,11 +31,12 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "AzureBlob2",
+						"referenceName": "AzureBlob3",
 						"type": "DatasetReference"
 					}
 				]
 			}
 		]
-	}
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
 }
