@@ -1,0 +1,28 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureSqlTable",
+		"structure": [
+			{
+				"name": "POSTCODE",
+				"type": "String"
+			},
+			{
+				"name": "PERSONTOTAL",
+				"type": "Int32"
+			},
+			{
+				"name": "DISTRICTNAME",
+				"type": "String"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[POSTCODETOTALS]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
