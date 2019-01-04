@@ -17,12 +17,21 @@
 						"type": "BlobSource",
 						"recursive": true
 					},
+					"sink": {
+						"type": "BlobSink"
+					},
 					"enableStaging": false,
 					"dataIntegrationUnits": 0
 				},
 				"inputs": [
 					{
 						"referenceName": "AzureBlob1",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "AzureBlob3",
 						"type": "DatasetReference"
 					}
 				]
