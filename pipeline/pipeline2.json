@@ -16,12 +16,21 @@
 					"source": {
 						"type": "SqlSource"
 					},
+					"sink": {
+						"type": "BlobSink"
+					},
 					"enableStaging": false,
 					"dataIntegrationUnits": 0
 				},
 				"inputs": [
 					{
 						"referenceName": "AzureSqlTable1",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "AzureBlob2",
 						"type": "DatasetReference"
 					}
 				]
