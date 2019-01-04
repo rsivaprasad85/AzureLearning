@@ -6,6 +6,20 @@
 			"type": "LinkedServiceReference"
 		},
 		"type": "AzureSqlTable",
+		"structure": [
+			{
+				"name": "POSTCODE",
+				"type": "String"
+			},
+			{
+				"name": "PERSONTOTAL",
+				"type": "Int32"
+			},
+			{
+				"name": "DISTRICTNAME",
+				"type": "String"
+			}
+		],
 		"typeProperties": {
 			"tableName": "[dbo].[POSTCODETOTALS]"
 		}
