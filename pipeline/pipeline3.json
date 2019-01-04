@@ -25,7 +25,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "AzureBlob1",
+						"referenceName": "AzureBlob4",
 						"type": "DatasetReference"
 					}
 				],
