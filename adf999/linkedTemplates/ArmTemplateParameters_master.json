@@ -28,6 +28,12 @@
 		},
 		"AzureBlob2_properties_typeProperties_folderPath": {
 			"value": "input"
+		},
+		"AzureBlob3_properties_typeProperties_fileName": {
+			"value": ""
+		},
+		"AzureBlob3_properties_typeProperties_folderPath": {
+			"value": "output"
 		}
 	}
 }
