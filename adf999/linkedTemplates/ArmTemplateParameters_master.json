@@ -22,6 +22,12 @@
 		},
 		"AzureBlob1_properties_typeProperties_folderPath": {
 			"value": "input"
+		},
+		"AzureBlob2_properties_typeProperties_fileName": {
+			"value": "test2.csv"
+		},
+		"AzureBlob2_properties_typeProperties_folderPath": {
+			"value": "input"
 		}
 	}
 }
