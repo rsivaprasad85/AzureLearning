@@ -34,6 +34,12 @@
 		},
 		"AzureBlob3_properties_typeProperties_folderPath": {
 			"value": "output"
+		},
+		"AzureBlob4_properties_typeProperties_fileName": {
+			"value": ""
+		},
+		"AzureBlob4_properties_typeProperties_folderPath": {
+			"value": "input"
 		}
 	}
 }

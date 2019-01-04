@@ -47,6 +47,14 @@
 			"type": "string",
 			"defaultValue": "output"
 		},
+		"AzureBlob4_properties_typeProperties_fileName": {
+			"type": "string",
+			"defaultValue": ""
+		},
+		"AzureBlob4_properties_typeProperties_folderPath": {
+			"type": "string",
+			"defaultValue": "input"
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI to storage account containing linked ARM templates"
@@ -103,6 +111,12 @@
 					},
 					"AzureBlob3_properties_typeProperties_folderPath": {
 						"value": "[parameters('AzureBlob3_properties_typeProperties_folderPath')]"
+					},
+					"AzureBlob4_properties_typeProperties_fileName": {
+						"value": "[parameters('AzureBlob4_properties_typeProperties_fileName')]"
+					},
+					"AzureBlob4_properties_typeProperties_folderPath": {
+						"value": "[parameters('AzureBlob4_properties_typeProperties_folderPath')]"
 					}
 				}
 			},
