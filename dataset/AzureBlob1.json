@@ -6,6 +6,20 @@
 			"type": "LinkedServiceReference"
 		},
 		"type": "AzureBlob",
+		"structure": [
+			{
+				"name": "Postcode",
+				"type": "String"
+			},
+			{
+				"name": "PersonTotal",
+				"type": "String"
+			},
+			{
+				"name": "DistrictName",
+				"type": "String"
+			}
+		],
 		"typeProperties": {
 			"format": {
 				"type": "TextFormat",
